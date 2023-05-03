@@ -1,0 +1,416 @@
+﻿Associated Domain,Variable,Variable Label,Derived,Source or Root Variable,Table Name(s)
+Identifier,year,year,No,,
+Identifier,cocnumber,continuum of care number,No,HUD,
+Outcome,pit_tot_shelt_pit_hud,total sheltered - HUD PIT,No,HUD PIT,
+Outcome,pit_tot_unshelt_pit_hud,total unsheltered - HUD PIT,No,HUD PIT,
+Outcome,pit_tot_hless_pit_hud,total homeless - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_ind_shelt_pit_hud,individuals sheltered - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_ind_unshelt_pit_hud,individuals unsheltered - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_ind_hless_pit_hud,total individuals - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_perfam_shelt_pit_hud,persons in families sheltered - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_perfam_unshelt_pit_hud,persons in Families unsheltered - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_perfam_hless_pit_hud,total persons in families - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_ind_chronic_hless_pit_hud,total chronically homeless individuals - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_perfam_chronic_hless_pit_hud,total chronically homeless persons in families - HUD PIT,No,HUD PIT,
+Secondary Outcome,pit_vet_hless_pit_hud,total veterans - HUD PIT,No,HUD PIT,
+Subgroup,econ_urb_urbanicity,urbanicity category,No,HUD,
+Identifier,coctag,tag(cocnumber),No,HUD,
+Identifier,panelvar,CoC number used to set panel,No,HUD,
+Secondary Outcome,hou_pol_totalind_hud,"length of time homeless; ES, SH, and TH universe",No,HUD System Performance Measures,
+Secondary Outcome,hou_pol_totalday_hud,"length of time homeless; ES, SH, and TH total days",No,HUD System Performance Measures,
+Secondary Outcome,hou_pol_totalexit_hud,total exits: universe,No,HUD System Performance Measures,
+Secondary Outcome,hou_pol_numret6mos_hud,total exits:  return in less than 6 months,No,HUD System Performance Measures,
+Secondary Outcome,hou_pol_numret12mos_hud,total exits:  return in less than 12 months,No,HUD System Performance Measures,
+Safety Net,hou_pol_fedfundcoc,CoC federal funding - HUD,No,HUD CoC Funding Reports,
+Safety Net,hou_pol_fund_project,count of federal funded projects - HUD,No,HUD CoC Funding Reports,
+Safety Net,hou_pol_bed_es_hic_hud,"total year-round beds, emergency shelter",No,HUD HIC,
+Safety Net,hou_pol_bed_oph_hic_hud,"total year-round beds , other permanent housing",No,HUD HIC,
+Safety Net,hou_pol_bed_psh_hic_hud,"total year-round beds, permanent supportive housing",No,HUD HIC,
+Safety Net,hou_pol_bed_rrh_hic_hud,"total year-round beds, rapid re-housing",No,HUD HIC,
+Safety Net,hou_pol_bed_sh_hic_hud,"total year-round beds, safe haven",No,HUD HIC,
+Safety Net,hou_pol_bed_th_hic_hud,"total year-round beds, transitional housing",No,HUD HIC,
+Safety Net,hou_pol_perm_bed_hic_hud,"permanent beds; sum of permanent supportive, rapid rehousing, & other permanent",No,HUD HIC,
+Safety Net,hou_pol_temp_bed_hic_hud,"temporary beds; sum of emergency shelter, transitional housing, & safe haven",No,HUD HIC,
+Demographic,dem_pop_pop_census,"total population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017""
+""Annual Estimates of Resident Population Change for Municipios of Puerto Rico and Municipio Rankings: April 1, 2000 to July 1, 2009""
+""Intercensal Estimates of the Resident Population by Five-Year Age Groups and Sex for Municipios of Puerto Rico: April 1, 2000 to July 1, 2010"""
+Demographic,dem_pop_male_census,"total male population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_female_census,"total female population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_child_census,"total population ages 0-19, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_adult_census,"total population ages 20-64, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_senior_census,"total population ages 65 or older, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_white_census,"total white alone (non-hispanic) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_black_census,"total black alone (non-hispanic) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_native_census,"total native alone (non-hispanic) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_asian_census,"total asian alone (non-hispanic) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_pacific_census,"total pacific islander alone (non-hispanic) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_racetwo_census,"total population of two or more races (non-hispanic), intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_hispanic_census,"total latino/hispanic (all races) population, intercensal estimate",No,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_age_boom_census,"portion of baby boomers to total population in 2010, intercensal estimate",Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Housing,total_rent_inventory_acs5yr,"total number of rental units; occupied, for rent, and rented but not occupied",No,Census ACS 5-Year Estimates,"""B25003: TENURE""
+""B25004: VACANCY STATUS"""
+Demographic,dem_soc_ed_bach_acs5yr,education share-bachelors or higher to total population for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Demographic,dem_soc_ed_hsgrad_acs5yr,education share-high school grad to total population for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Demographic,dem_soc_ed_lesshs_acs5yr,education share-less than high school grad to total population for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Demographic,dem_soc_ed_somecoll_acs5yr,education share-some college to total population for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Demographic,dem_soc_vet_acs5yr,share of the civilian population 25 and older with veteran status,Yes,Census ACS 5-Year Estimates,"""B21003: VETERAN STATUS BY EDUCATIONAL ATTAINMENT FOR THE CIVILIAN POPULATION 25 YEARS AND OVER"""
+Demographic,dem_soc_singparent_acs5yr,share of under 18 population living with single parent,Yes,Census ACS 5-Year Estimates,"""B09008: PRESENCE OF UNMARRIED PARTNER OF HOUSEHOLDER BY HOUSEHOLD TYPE FOR CHILDREN UNDER 18 YEARS IN HOUSEHOLDS"""
+Demographic,dem_health_ins_acs5yr,share of civil noninstitutionalized population with health insurance,Yes,Census ACS 5-Year Estimates,"""B27001: HEALTH INSURANCE COVERAGE STATUS BY SEX BY AGE"""
+Economic,econ_labor_topskilled_acs5yr,employment rate-bachelors degree or higher for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Economic,econ_labor_midskilled_acs5yr,employment rate-high school grad or some college for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Economic,econ_labor_unskilled_acs5yr,employment rate-less than high school grad for ages 25-64,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Economic,econ_labor_incineq_acs5yr,gini index of income inequality by households,No,Census ACS 5-Year Estimates,"""B19083: GINI INDEX OF INCOME INEQUALITY"""
+Economic,econ_labor_medinc_acs5yr,median household income,No,Census ACS 5-Year Estimates,"""B19013: MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN [year] INFLATION-ADJUSTED DOLLARS)"""
+Economic,econ_labor_pov_acs5yr,population in poverty to total population with poverty status determined,Yes,Census ACS 5-Year Estimates,"""B17001: POVERTY STATUS IN THE PAST 12 MONTHS BY SEX BY AGE"""
+Demographic,dem_soc_singadult_acs5yr,proportion of 1-person households to all households,Yes,Census ACS 5-Year Estimates,"""B11016: HOUSEHOLD TYPE BY HOUSEHOLD SIZE"""
+Safety Net,econ_sn_cashasst_acs5yr,share of households with public assistance income to all households,Yes,Census ACS 5-Year Estimates,"""B19057: PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS FOR HOUSEHOLDS"""
+Housing,hou_mkt_homeval_acs5yr,median housing unit value of owner-occupied housing units,No,Census ACS 5-Year Estimates,"""B25077: MEDIAN VALUE (DOLLARS)"""
+Housing,hou_mkt_homeage_acs5yr,median year housing structure built,No,Census ACS 5-Year Estimates,"""B25035: MEDIAN YEAR STRUCTURE BUILT"""
+Safety Net,hou_mkt_homeage1940_acs5yr,proportion of housing structures built before 1940 to total housing structures,Yes,Census ACS 5-Year Estimates,"""B25034: YEAR STRUCTURE BUILT"""
+Housing,hou_mkt_medrent_acs5yr,median contract rent for renter-occupied housing units,No,Census ACS 5-Year Estimates,"""B25058: MEDIAN CONTRACT RENT (DOLLARS)"""
+Housing,hou_mkt_medrentgross_acs5yr,median gross rent for renter-occupied housing units,No,Census ACS 5-Year Estimates,"""B25064: MEDIAN GROSS RENT (DOLLARS)"""
+Housing,hou_mkt_ovrcrowd_acs5yr,share of occupied housing units with occupants per room exceeding 1.5,Yes,Census ACS 5-Year Estimates,"""B25014: TENURE BY OCCUPANTS PER ROOM"""
+Housing,hou_mkt_rentshare_acs5yr,share of renter-occupied housing units to all occupied housing units,Yes,Census ACS 5-Year Estimates,"""B25003: TENURE"""
+Housing,hou_mkt_rentvacancy_acs5yr,share of vacant units for rent to total number of rental units,Yes,Census ACS 5-Year Estimates,"""B25003: TENURE""
+""B25004: VACANCY STATUS"""
+Housing,hou_mkt_utility_acs5yr,utility costs as the difference of gross and contract rent,No,Census ACS 5-Year Estimates,"""B25064: MEDIAN GROSS RENT (DOLLARS)""
+""B25058: MEDIAN CONTRACT RENT (DOLLARS)"""
+Housing,hou_mkt_burden_own_acs5yr,share of owned housing units with 30-50% monthly owner costs to household income,Yes,Census ACS 5-Year Estimates,"""B25091: MORTGAGE STATUS BY SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS"""
+Housing,hou_mkt_burden_sev_own_acs5yr,share of owned housing units with 50+% monthly owner costs to household income,Yes,Census ACS 5-Year Estimates,"""B25091: MORTGAGE STATUS BY SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS"""
+Housing,hou_mkt_burden_rent_acs5yr,share of rented housing units with 30-50% monthly gross rent to household income,Yes,Census ACS 5-Year Estimates,"""B25070: GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS"""
+Housing,hou_mkt_burden_sev_rent_acs5yr,share of rented housing units with 50+% monthly gross rent to household income,Yes,Census ACS 5-Year Estimates,"""B25070: GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME IN THE PAST 12 MONTHS"""
+Housing,fhfa_hpi_flag,flag indicating that counties in the CoC had missing variables for housing price,No,Federal Housing Finance Agency,"""HPI for Counties (All-Transactions Index), Experimental Indexes Showing Cumulative (Nominal) Annual Appreciation"""
+Housing,fhfa_hpi_2009,"2009 base year house price index (HPI), from FHFA",No,Federal Housing Finance Agency,"""HPI for Counties (All-Transactions Index), Experimental Indexes Showing Cumulative (Nominal) Annual Appreciation"""
+Economic,econ_labor_force_pop_BLS,total population in the labor force,No,BLS Local Area Unemployment Statistics (LAUS),"""Labor Force Data by County, [year] Annual Averages"""
+Economic,econ_labor_emp_pop_BLS,total employed population,No,BLS Local Area Unemployment Statistics (LAUS),"""Labor Force Data by County, [year] Annual Averages"""
+Economic,econ_labor_unemp_pop_BLS,total unemployed population,No,BLS Local Area Unemployment Statistics (LAUS),"""Labor Force Data by County, [year] Annual Averages"""
+Economic,econ_labor_unemp_rate_BLS,"unemployment rate, from BLS LAUS",Yes,BLS Local Area Unemployment Statistics (LAUS),"""Labor Force Data by County, [year] Annual Averages"""
+Housing,hou_mkt_area_census,area in square miles - land area,No,Census (County Area in Sq. Miles),"""GCT-PH1: Population, Housing Units, Area, and Density: 2010 - United States -- County by State; and for Puerto Rico"""
+Demographic,dem_pop_density_census,total population estimate divided by square miles,Yes,"Census (County Area in Sq. Miles)
+Census Intercensal Population Estimates","""GCT-PH1: Population, Housing Units, Area, and Density: 2010 - United States -- County by State; and for Puerto Rico""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Housing,hou_mkt_density_census,housing units estimate divided by square miles,Yes,"Census (County Area in Sq. Miles)
+Census Housing Unit Estimates","""GCT-PH1: Population, Housing Units, Area, and Density: 2010 - United States -- County by State; and for Puerto Rico""
+""State and County Housing Unit Estimates: April 1, 2000 to July 1, 2010""
+""Annual Estimates of Housing Units for the United States, Regions, Divisions, States, and Counties: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_mig_census,"net migration from year-1 to year, intercensal estimate",No,Census Intercensal Migration Estimates,"""Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2000 to July 1, 2010""
+""Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2010 to July 1, 2017"""
+Safety Net,hou_pol_hudunit_psh_hud,number of HUD-assisted units,No,HUD Picture of Subsidized Households,County-level extract
+Safety Net,hou_pol_occhudunit_psh_hud,HUD unit occupancy rate,Yes,HUD Picture of Subsidized Households,County-level extract
+Safety Net,hou_mkt_pplunit_psh_hud,people per unit - average household size,No,HUD Picture of Subsidized Households,County-level extract
+Safety Net,hou_pol_eli_psh_hud,% of HUD households with income below 30% of local median family income,Yes,HUD Picture of Subsidized Households,County-level extract
+Safety Net,hou_mkt_pctoverhouse_psh_hud,pct overhoused (households with more bedrooms than people),Yes,HUD Picture of Subsidized Households,County-level extract
+Housing,hou_mkt_units_census,"total number of housing units, intercensal estimate",No,Census Housing Unit Estimates,"""State and County Housing Unit Estimates: April 1, 2000 to July 1, 2010""
+""Annual Estimates of Housing Units for the United States, Regions, Divisions, States, and Counties: April 1, 2010 to July 1, 2017"""
+Housing,hou_mkt_pmt_totbldg_census,total permitted buildings,No,Census Building Permits Survey,"""County Level Residential Building Permit Statistics"""
+Housing,hou_mkt_pmt_totunit_census,total permitted units,No,Census Building Permits Survey,"""County Level Residential Building Permit Statistics"""
+Housing,hou_mkt_pmt_totvalue_census,total value of permitted buildings,No,Census Building Permits Survey,"""County Level Residential Building Permit Statistics"""
+Economic,econ_labor_pov_pop_census,"count of all ages in poverty, from SAIPE",No,Census Small Area Income and Poverty Estimates (SAIPE),"Income and Poverty Interactive Data Tool, https://www.census.gov/data-tools/demo/saipe/saipe.html?s_appName=saipe&map_yearSelector=2017&map_geoSelector=aa_c "
+Economic,econ_labor_medinc_census,"median household income, from SAIPE",No,Census Small Area Income and Poverty Estimates (SAIPE),"Income and Poverty Interactive Data Tool, https://www.census.gov/data-tools/demo/saipe/saipe.html?s_appName=saipe&map_yearSelector=2017&map_geoSelector=aa_c "
+Safety Net,econ_sn_ssdi_SSA,total number of disabled workers receiving benefits,No,SSA OASDI Recipients by State and County,"""Table 2. Number of beneficiaries in current-payment status, by state or other area, type of benefit, and sex of beneficiaries aged 65 or older, December [year]""
+""Table 4. Number of beneficiaries in current-payment status, by county, type of benefit, and sex of beneficiaries aged 65 or older, December [year]"""
+Safety Net,econ_sn_ssdi_part_rate_SSA,SSDI participation rate (ssdi participants/census population),Yes,"SSA OASDI Recipients by State and County
+Census Intercensal Population Estimates","""Table 2. Number of beneficiaries in current-payment status, by state or other area, type of benefit, and sex of beneficiaries aged 65 or older, December [year]""
+""Table 4. Number of beneficiaries in current-payment status, by county, type of benefit, and sex of beneficiaries aged 65 or older, December [year]""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Safety Net,econ_sn_ssi_part_SSA,total number of SSI recipients,No,SSA SSI Recipients by State and County,"""Table 1. Number of recipients by state or other area, eligibility category, age, and receipt of OASDI benefits, December [year]""
+""Table 2. Amount of payments, by state or other area, eligibility category, and age, December [year] (in thousands of dollars)""
+""Table 3. Number of recipients in state (by eligibility category, age, and receipt of OASDI benefits) and amount of payments, by county, December [year]"""
+Safety Net,econ_sn_ssi_pay_SSA,amount of payments in thousands of dollars,No,SSA SSI Recipients by State and County,"""Table 2. Amount of payments, by state or other area, eligibility category, and age, December [year] (in thousands of dollars)""
+""Table 3. Number of recipients in state (by eligibility category, age, and receipt of OASDI benefits) and amount of payments, by county, December [year]"""
+Safety Net,econ_sn_ssi_part_rate_SSA,SSI participation rate (ssi participants/census population),Yes,"SSA SSI Recipients by State and County
+Census Intercensal Population Estimates","""Table 1. Number of recipients by state or other area, eligibility category, age, and receipt of OASDI benefits, December [year]""
+""Table 3. Number of recipients in state (by eligibility category, age, and receipt of OASDI benefits) and amount of payments, by county, December [year]""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Housing,hou_mkt_evict_count,"number of addresses with an eviction judgment, from eviction lab",No,Eviction Lab at Princeton University,
+Housing,hou_mkt_evict_file_count,"eviction cases filed, including multiple against same address, from eviction lab",No,Eviction Lab at Princeton University,
+Housing,hou_mkt_renter_count_evlab,"count of renter-occupied households, eviction lab estimate from census and ESRI",No,Eviction Lab at Princeton University,
+Housing,hou_mkt_evict_flag,"flag for eviction estimates lower than the actual number, from eviction lab",No,Eviction Lab at Princeton University,
+Housing,hou_mkt_evict_file_rate,"share of renter-occupied households with an eviction filed, from eviction lab",Yes,Eviction Lab at Princeton University,
+Housing,hou_mkt_evict_rate,"share of renter-occupied households with an eviction, from eviction lab",Yes,Eviction Lab at Princeton University,
+Demographic,dem_health_alcoholdeath_IMHE,"2014 mortality rate of alcohol use disorders, per 100,000 population, from IMHE",No,Institute for Health Metrics and Evaluation (IHME),"""United States Substance Use Disorders and Intentional Injuries Mortality Rates by County 1980-2014"""
+Demographic,dem_mort_lifeexp_IMHE,"2014 life expectancy, from IMHE",No,Institute for Health Metrics and Evaluation (IHME),"""United States Life Expectancy and Age-specific Mortality Risk by County 1980-2014"""
+Safety Net,econ_sn_eitc_irs,number of income tax returns (households) with earned income credit (EITC),No,IRS Statistics of Income (SOI) Division,"""SOI Tax Stats - County Data - [year]"""
+Safety Net,econ_sn_returns_irs,number of returns (households),No,IRS Statistics of Income (SOI) Division,"""SOI Tax Stats - County Data - [year]"""
+Safety Net,econ_sn_eitc_irs_share,share of returns (households) with earned income tax credit (EITC),Yes,IRS Statistics of Income (SOI) Division,"""SOI Tax Stats - County Data - [year]"""
+Demographic,dem_health_mentalhlth_chr,"number of mental health providers, from county health rankings",No,University of Wisconsin County Health Rankings (CHR),"""2017 CHR CSV Analytic Data"""
+Demographic,dem_health_excesdrink_chr,"percentage of adults that report excessive drinking, from county health rankings",Yes,University of Wisconsin County Health Rankings (CHR),"""2018 CHR CSV Analytic Data"""
+Demographic,dem_health_cost_dart,"total medicare reimbursements per enrollee (parts a&b), dartmouth",No,The Dartmouth Atlas of Health Care,"Longitudinal research files: Medicare spending: County (Stata format), from http://archive.dartmouthatlas.org/tools/downloads.aspx?tab=39#research_files"
+Local Policy,hou_pol_hlessconduct_food,count of food sharing laws,No,National Law Center on Homelessness and Poverty (NLCHP),
+Local Policy,hou_pol_hlessconduct_total,total count of prohibited conduct laws,No,National Law Center on Homelessness and Poverty (NLCHP),
+Local Policy,hou_pol_hlessconduct_sleep,"count of sleeping, camping, lying/sitting, and vehicle restriction laws",No,National Law Center on Homelessness and Poverty (NLCHP),
+Local Policy,hou_pol_hlessconduct_loiter,count of loitering and vagrancy laws,No,National Law Center on Homelessness and Poverty (NLCHP),
+Local Policy,hou_pol_hlessconduct_beg,count of begging laws,No,National Law Center on Homelessness and Poverty (NLCHP),
+Climate,env_wea_avgtemp_summer_noaa,"average summer temperature - June, July, August",No,"NOAA nClimDiv
+NOAA Climate at a Glance System","nClimDiV COUNTY TEMPERATURE-PRECIPITATION, from https://www1.ncdc.noaa.gov/pub/data/cirs/climdiv/
+""Climate at a Glance: City Time Series"""
+Climate,env_wea_precip_annual_noaa,total annual precipitation,No,"NOAA nClimDiv
+NOAA Climate at a Glance System","nClimDiV COUNTY TEMPERATURE-PRECIPITATION, from https://www1.ncdc.noaa.gov/pub/data/cirs/climdiv/
+""Climate at a Glance: City Time Series"""
+Economic,cpi_2017,consumer price index,No,BLS/Federal Reserve Bank of St. Louis,"""Consumer Price Index for All Urban Consumers: All Items (CPIAUCSL)"" accessed from https://fred.stlouisfed.org/series/CPIAUCSL"
+Climate,env_wea_avgtemp_noaa,average January temperature,No,"NOAA nClimDiv
+NOAA Climate at a Glance System","nClimDiV COUNTY TEMPERATURE-PRECIPITATION, from https://www1.ncdc.noaa.gov/pub/data/cirs/climdiv/
+""Climate at a Glance: City Time Series"""
+Climate,env_wea_precip_noaa,total January precipitation,No,"NOAA nClimDiv
+NOAA Climate at a Glance System","nClimDiV COUNTY TEMPERATURE-PRECIPITATION, from https://www1.ncdc.noaa.gov/pub/data/cirs/climdiv/
+""Climate at a Glance: City Time Series"""
+Geography,state_abr,state abbreviation,No,,
+Outcome,pit_miss,sum of all PIT count values,No,HUD PIT,
+Outcome,odd_flag,odd year of data indicator,No,,
+Outcome,pit_hless_balance,number of non-missing total homeless values across all years,No,HUD PIT,
+Outcome,pit_shelt_balance,number of non-missing sheltered homeless values across all years,No,HUD PIT,
+Outcome,pit_unshelt_balance,number of non-missing unsheltered homeless values across all years,No,HUD PIT,
+Outcome,unbalance_flag,flag for CoCs with less than 5 years of non-missing PIT data,No,,
+Outcome,pit_shelt_pit_hud_share,"rate of sheltered homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Outcome,pit_unshelt_pit_hud_share,"rate of unsheltered homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Outcome,pit_hless_pit_hud_share,"rate of total homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Outcome,missing,"number of missing homeless, sheltered, and unsheltered values",No,,
+Demographic,dem_pop_adult_census_share,adult population (ages 20-64) to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_child_census_share,child population (ages 0-19) to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_female_census_share,female population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_male_census_share,male population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_mig_census_share,yearly increase in population to total population,Yes,"Census Intercensal Migration Estimates
+Census Intercensal Population Estimates","""Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2000 to July 1, 2010""
+""Annual Resident Population Estimates, Estimated Components of Resident Population Change, and Rates of the Components of Resident Population Change for States and Counties: April 1, 2010 to July 1, 2017""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_pop_senior_census_share,senior population (ages 65 and older) to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_age_boom_census_2011,2010 share of baby boomers to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_asian_census_share,asian (non-hispanic) population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_black_census_share,black (non-hispanic) population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_hispanic_census_share,hispanic/latino population (all races) to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_native_census_share,native (non-hispanic) population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_pacific_census_share,pacific islander (non-hispanic) population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_racetwo_census_share,two or more races to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_white_census_share,white (non-hispanic) population to total population,Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_soc_other_census_share,"sum of native, pacific islander, and two or more race shares",Yes,Census Intercensal Population Estimates,"""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_health_mentalhlth_chr_share,mental health care providers to total population,Yes,"University of Wisconsin County Health Rankings (CHR)
+Census Intercensal Population Estimates","""2017 CHR CSV Analytic Data""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Demographic,dem_health_mhlth_chr_share_2017,2016 share of mental health care providers to total population,Yes,See dem_health_mentalhlth_chr_share,
+Demographic,dem_health_excesdrink_chr_2017,2016 share of excess drinkers,Yes,See dem_health_excesdrink_chr,
+Demographic,dem_health_alcdeath_IMHE_2015,2014 alcohol morality rate,No,See dem_health_alcoholdeath_IMHE,
+Demographic,dem_mort_lifeexp_IMHE_2015,"2014 life expectancy, from IMHE",No,See dem_mort_lifeexp_IMHE,
+Demographic,dem_health_ins_acs5yr_2012,2011 share of the population with health insurance,Yes,See dem_health_ins_acs5yr,
+Demographic,dem_health_ins_acs5yr_2017,2016 share of the population with health insurance,Yes,See dem_health_ins_acs5yr,
+Demographic,dem_soc_ed_bach_acs5yr_2012,2011 share of the population with bachelors or higher,Yes,See dem_soc_ed_bach_acs5yr,
+Demographic,dem_soc_ed_bach_acs5yr_2017,2016 share of the population with bachelors or higher,Yes,See dem_soc_ed_bach_acs5yr,
+Demographic,dem_soc_ed_bach_acs5yr_diff,change in dem_soc_ed_bach_acs5yr values (2016 and 2011),Yes,See dem_soc_ed_bach_acs5yr,
+Demographic,dem_soc_ed_somecoll_acs5yr_2012,2011 share of the population with some college,Yes,See dem_soc_ed_somecoll_acs5yr,
+Demographic,dem_soc_ed_somecoll_acs5yr_2017,2016 share of the population with some college,Yes,See dem_soc_ed_somecoll_acs5yr,
+Demographic,dem_soc_ed_hsgrad_acs5yr_2012,2011 high school graduate share of the population,Yes,See dem_soc_ed_hsgrad_acs5yr,
+Demographic,dem_soc_ed_hsgrad_acs5yr_2017,2016 high school graduate share of the population,Yes,See dem_soc_ed_hsgrad_acs5yr,
+Demographic,dem_soc_ed_lesshs_acs5yr_2012,2011 share of the population without high school diploma,Yes,See dem_soc_ed_lesshs_acs5yr,
+Demographic,dem_soc_ed_lesshs_acs5yr_2017,2016 share of the population without high school diploma,Yes,See dem_soc_ed_lesshs_acs5yr,
+Demographic,dem_soc_ed_lesshs_acs5yr_diff,change in dem_soc_ed_lesshs_acs5yr values (2016 and 2011),Yes,See dem_soc_ed_lesshs_acs5yr,
+Demographic,dem_soc_singparent_acs5yr_2012,2011 percentage of children living with a single parent,Yes,See dem_soc_singparent_acs5yr,
+Demographic,dem_soc_singparent_acs5yr_2017,2016 percentage of children living with a single parent,Yes,See dem_soc_singparent_acs5yr,
+Demographic,dem_soc_singparent_acs5yr_diff,change in dem_soc_singparent_acs5yr values (2016 and 2011),Yes,See dem_soc_singparent_acs5yr,
+Demographic,dem_soc_singadult_acs5yr_2012,2011 percentage of children living with a single parent,Yes,See dem_soc_singadult_acs5yr,
+Demographic,dem_soc_singadult_acs5yr_2017,2016 percentage of children living with a single parent,Yes,See dem_soc_singadult_acs5yr,
+Demographic,dem_soc_singadult_acs5yr_diff,change in dem_soc_singadult_acs5yr values (2016 and 2011),Yes,See dem_soc_singadult_acs5yr,
+Demographic,dem_soc_vet_acs5yr_2012,2011 percentage of veterans,Yes,See dem_soc_vet_acs5yr,
+Demographic,dem_soc_vet_acs5yr_2017,2016 percentage of veterans,Yes,See dem_soc_vet_acs5yr,
+Demographic,dem_soc_vet_acs5yr_diff,change in dem_soc_vet_acs5yr values (2016 and 2011),Yes,See dem_soc_vet_acs5yr,
+Economic,econ_labor_incineq_acs5yr_2012,2011 gini coefficient,No,See econ_labor_incineq_acs5yr,
+Economic,econ_labor_incineq_acs5yr_2017,2016 gini coefficient,No,See econ_labor_incineq_acs5yr,
+Economic,econ_labor_incineq_acs5yr_diff,change in econ_labor_incineq_acs5yr values (2016 and 2011),No,See econ_labor_incineq_acs5yr,
+Economic,econ_labor_topskill_acs5yr_2012,2011 employment rate for high-skilled workers,Yes,See econ_labor_topskilled_acs5yr,
+Economic,econ_labor_topskill_acs5yr_2017,2016 employment rate for high-skilled workers,Yes,See econ_labor_topskilled_acs5yr,
+Economic,econ_labor_topskill_acs5yr_diff,change in econ_labor_topskilled_acs5yr values (2016 and 2011),Yes,See econ_labor_topskilled_acs5yr,
+Economic,econ_labor_midskill_acs5yr_2012,2011 employment rate for middle-skilled workers,Yes,See econ_labor_midskilled_acs5yr,
+Economic,econ_labor_midskill_acs5yr_2017,2016 employment rate for middle-skilled workers,Yes,See econ_labor_midskilled_acs5yr,
+Economic,econ_labor_midskill_acs5yr_diff,change in econ_labor_midskilled_acs5yr values (2016 and 2011),Yes,See econ_labor_midskilled_acs5yr,
+Economic,econ_labor_unskill_acs5yr_2012,2011 employment rate for low-skilled workers,Yes,See econ_labor_unskilled_acs5yr,
+Economic,econ_labor_unskill_acs5yr_2017,2016 employment rate for low-skilled workers,Yes,See econ_labor_unskilled_acs5yr,
+Economic,econ_labor_unskill_acs5yr_diff,change in econ_labor_unskilled_acs5yr values (2016 and 2011),Yes,See econ_labor_unskilled_acs5yr,
+Economic,econ_labor_medinc_acs5yr_2012,2011 median income,No,See econ_labor_medinc_acs5yr,
+Economic,econ_labor_medinc_acs5yr_2017,2016 median income,No,See econ_labor_medinc_acs5yr,
+Economic,econ_labor_pov_pop_census_share,"poverty rate, number of persons in poverty to total population",Yes,"Census Small Area Income and Poverty Estimates (SAIPE)
+Census Intercensal Population Estimates","Income and Poverty Interactive Data Tool, https://www.census.gov/data-tools/demo/saipe/saipe.html?s_appName=saipe&map_yearSelector=2017&map_geoSelector=aa_c 
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+Safety Net,econ_sn_cashasst_acs5yr_2012,2011 share of households with public assistance income,Yes,See econ_sn_cashasst_acs5yr,
+Safety Net,econ_sn_cashasst_acs5yr_2017,2016 share of households with public assistance income,Yes,See econ_sn_cashasst_acs5yr,
+Safety Net,econ_sn_cashasst_acs5yr_diff,change in econ_sn_cashasst_acs5yr values (2016 and 2011),Yes,See econ_sn_cashasst_acs5yr,
+Housing,hou_mkt_rentshare_acs5yr_2012,2011 share of renters,Yes,See hou_mkt_rentshare_acs5yr,
+Housing,hou_mkt_rentshare_acs5yr_2017,2016 share of renters,Yes,See hou_mkt_rentshare_acs5yr,
+Housing,hou_mkt_rentshare_acs5yr_diff,change in hou_mkt_rentshare_acs5yr values (2016 and 2011),Yes,See hou_mkt_rentshare_acs5yr,
+Housing,hou_mkt_rentvacancy_acs5yr_2012,2011 rental vacancy rate,Yes,See hou_mkt_rentvacancy_acs5yr,
+Housing,hou_mkt_rentvacancy_acs5yr_2017,2016 rental vacancy rate,Yes,See hou_mkt_rentvacancy_acs5yr,
+Housing,hou_mkt_rentvacancy_acs5yr_diff,change in hou_mkt_rentvacancy_acs5yr values (2016 and 2011),Yes,See hou_mkt_rentvacancy_acs5yr,
+Housing,hou_mkt_ovrcrowd_acs5yr_2012,2011 share of overcrowded housing units,Yes,See hou_mkt_ovrcrowd_acs5yr,
+Housing,hou_mkt_ovrcrowd_acs5yr_2017,2016 share of overcrowded housing units,Yes,See hou_mkt_ovrcrowd_acs5yr,
+Housing,hou_mkt_ovrcrowd_acs5yr_diff,change in hou_mkt_ovrcrowd_acs5yr values (2016 and 2011),Yes,See hou_mkt_ovrcrowd_acs5yr,
+Housing,hou_mkt_homeage_acs5yr_2012,2011 median housing unit age,No,See hou_mkt_homeage_acs5yr,
+Housing,hou_mkt_homeage_acs5yr_2017,2016 median housing unit age,No,See hou_mkt_homeage_acs5yr,
+Housing,hou_mkt_homeage_acs5yr_diff,change in hou_mkt_homeage_acs5yr values (2016 and 2011),No,See hou_mkt_homeage_acs5yr,
+Safety Net,hou_mkt_homeage1940_acs5yr_2012,2011 percentage of housing units built before 1940,Yes,See hou_mkt_homeage1940_acs5yr,
+Safety Net,hou_mkt_homeage1940_acs5yr_2017,2016 percentage of housing units built before 1940,Yes,See hou_mkt_homeage1940_acs5yr,
+Safety Net,hou_mkt_homeage1940_acs5yr_diff,change in hou_mkt_homeage1940_acs5yr values (2016 and 2011),Yes,See hou_mkt_homeage1940_acs5yr,
+Housing,hou_mkt_homeval_acs5yr_2012,2011 median home value,No,See hou_mkt_homeval_acs5yr,
+Housing,hou_mkt_homeval_acs5yr_2017,2016 median home value,No,See hou_mkt_homeval_acs5yr,
+Housing,hou_mkt_homeval_acs5yr_diff,change in hou_mkt_homeval_acs5yr values (2016 and 2011),No,See hou_mkt_homeval_acs5yr,
+Housing,hou_mkt_medrent_acs5yr_2012,2011 median rent,No,See hou_mkt_medrent_acs5yr,
+Housing,hou_mkt_medrent_acs5yr_2017,2016 median rent,No,See hou_mkt_medrent_acs5yr,
+Housing,hou_mkt_medrent_acs5yr_diff,change in hou_mkt_medrent_acs5yr values (2016 and 2011),No,See hou_mkt_medrent_acs5yr,
+Housing,hou_mkt_utility_acs5yr_2012,2011 utility costs,No,See hou_mkt_utility_acs5yr,
+Housing,hou_mkt_utility_acs5yr_2017,2016 utility costs,No,See hou_mkt_utility_acs5yr,
+Housing,hou_mkt_utility_acs5yr_diff,change in hou_mkt_utility_acs5yr values (2016 and 2011),No,See hou_mkt_utility_acs5yr,
+Housing,hou_mkt_burden_own_acs5yr_2012,2011 percentage of home owners with cost burden,Yes,See hou_mkt_burden_own_acs5yr,
+Housing,hou_mkt_burden_own_acs5yr_2017,2016 percentage of home owners with cost burden,Yes,See hou_mkt_burden_own_acs5yr,
+Housing,hou_mkt_burden_own_acs5yr_diff,change in hou_mkt_burden_own_acs5yr values (2016 and 2011),Yes,See hou_mkt_burden_own_acs5yr,
+Housing,hou_mkt_burden_sev_own_acs_2012,2011 percentage of home owners with severe cost burden,Yes,See hou_mkt_burden_sev_own_acs5yr,
+Housing,hou_mkt_burden_sev_own_acs_2017,2016 percentage of home owners with severe cost burden,Yes,See hou_mkt_burden_sev_own_acs5yr,
+Housing,hou_mkt_burden_sev_own_acs_diff,change in hou_mkt_burden_sev_own_acs5yr values (2016 and 2011),Yes,See hou_mkt_burden_sev_own_acs5yr,
+Housing,hou_mkt_burden_rent_acs5yr_2012,2011 percentage of renters with cost burden,Yes,See hou_mkt_burden_rent_acs5yr,
+Housing,hou_mkt_burden_rent_acs5yr_2017,2016 percentage of renters with cost burden,Yes,See hou_mkt_burden_rent_acs5yr,
+Housing,hou_mkt_burden_rent_acs5yr_diff,change in hou_mkt_burden_rent_acs5yr values (2016 and 2011),Yes,See hou_mkt_burden_rent_acs5yr,
+Housing,hou_mkt_burden_sev_rent_acs_2012,2011 percentage of renters with severe cost burden,Yes,See hou_mkt_burden_sev_rent_acs5yr,
+Housing,hou_mkt_burden_sev_rent_acs_2017,2016 percentage of renters with severe cost burden,Yes,See hou_mkt_burden_sev_rent_acs5yr,
+Housing,hou_mkt_burden_sev_rent_acs_diff,change in hou_mkt_burden_sev_rent_acs5yr values (2016 and 2011),Yes,See hou_mkt_burden_sev_rent_acs5yr,
+Safety Net,hou_pol_hudunit_psh_hud_share,share of HUD-subsidized housing units to total housing units,Yes,"HUD Picture of Subsidized Households
+Census Housing Unit Estimates","County-level extract (HUD Picture of Subsidized Households)
+""State and County Housing Unit Estimates: April 1, 2000 to July 1, 2010""
+""Annual Estimates of Housing Units for the United States, Regions, Divisions, States, and Counties: April 1, 2010 to July 1, 2017"""
+Housing,hou_mkt_pmt_unit_census_share,share of new housing permits to total housing units,Yes,"Census Building Permits Survey
+Census Housing Unit Estimates","""County Level Residential Building Permit Statistics""
+""State and County Housing Unit Estimates: April 1, 2000 to July 1, 2010""
+""Annual Estimates of Housing Units for the United States, Regions, Divisions, States, and Counties: April 1, 2010 to July 1, 2017"""
+Subgroup,urban_cat,urbanicity category,No,HUD,
+Geography,state,"numerical state ID, based on state_abr",No,,
+Housing,evict_file_flag,flag for missing eviction filing rate value,Yes,,
+Housing,evict_flag,flag for missing eviction rate value,Yes,,
+Safety Net,fedfundcoc_flag,flag for missing funding value,No,,
+Housing,hou_mkt_density_dummy,indicator for high housing density CoC (>= 75th percentile),No,,
+Housing,hou_mkt_homeval_xt,median housing unit value of owner-occupied housing units,No,See hou_mkt_homeval_acs5yr,
+Housing,hou_mkt_burden_own_xt,share of owned housing units with 30+% monthly owner costs to income,Yes,See hou_mkt_burden_own_acs5yr,
+Housing,hou_mkt_burden_sev_own_xt,share of owned housing units with 50+% monthly owner costs to income,Yes,See hou_mkt_burden_sev_own_acs5yr,
+Housing,hou_mkt_burden_rent_xt,share of rented housing units with 30+% monthly owner costs to income,Yes,See hou_mkt_burden_rent_acs5yr,
+Housing,hou_mkt_burden_sev_rent_xt,share of rented housing units with 50+% monthly owner costs to income,Yes,See hou_mkt_burden_sev_rent_acs5yr,
+Housing,hou_mkt_homeage_xt,median age of housing structure,No,See hou_mkt_homeage_acs5yr,
+Safety Net,hou_mkt_homeage1940_xt,share of housing structures built before 1940 to total housing structures,Yes,See hou_mkt_homeage1940_acs5yr,
+Housing,hou_mkt_medrent_xt,median contract rent for renter-occupied housing units,No,See hou_mkt_medrent_acs5yr,
+Housing,hou_mkt_utility_xt,utility costs as the difference of median gross and contract rent,No,See hou_mkt_utility_acs5yr,
+Housing,hou_mkt_rentshare_xt,share of renter-occupied housing units to all occupied housing units,Yes,See hou_mkt_rentshare_acs5yr,
+Housing,hou_mkt_rentvacancy_xt,rental vacancy rate-share of vacant units for rent to total rental units,Yes,See hou_mkt_rentvacancy_acs5yr,
+Housing,hou_mkt_ovrcrowd_xt,share of occupied housing units with occupants per room exceeding 1.5,Yes,See hou_mkt_ovrcrowd_acs5yr,
+Economic,econ_labor_midskill_xt,employment rate-high school grad or some college for ages 25-64,Yes,See econ_labor_midskilled_acs5yr,
+Economic,econ_labor_incineq_xt,gini index of income inequality by households,No,See econ_labor_incineq_acs5yr,
+Safety Net,econ_sn_cashasst_xt,share of households with public assistance income to all households,Yes,See econ_sn_cashasst_acs5yr,
+Demographic,dem_soc_ed_bach_xt,education share-bachelors or higher to total population for ages 25-64,Yes,See dem_soc_ed_bach_acs5yr,
+Demographic,dem_soc_ed_somecoll_xt,education share-some college to total population for ages 25-64,Yes,See dem_soc_ed_somecoll_acs5yr,
+Demographic,dem_soc_ed_hsgrad_xt,education share-high school grad to total population for ages 25-64,Yes,See dem_soc_ed_hsgrad_acs5yr,
+Demographic,dem_soc_ed_lesshs_xt,education share-less than high school grad to total population for ages 25-64,Yes,See dem_soc_ed_lesshs_acs5yr,
+Demographic,dem_health_ins_xt,share of civil noninstitutionalized population with health insurance,Yes,See dem_health_ins_acs5yr,
+Demographic,dem_soc_singadult_xt,proportion of one-person households to all households,Yes,See dem_soc_singadult_acs5yr,
+Demographic,dem_soc_singparent_xt,share of under 18 population living with single parent,Yes,See dem_soc_singparent_acs5yr,
+Demographic,dem_soc_vet_xt,share of the civilian population 25 and older with veteran status,Yes,See dem_soc_vet_acs5yr,
+Housing,ln_hou_mkt_homeval_xt,log of median housing unit value,No,See hou_mkt_homeval_acs5yr,
+Housing,ln_hou_mkt_medrent_xt,log of median rent,No,See hou_mkt_medrent_acs5yr,
+Economic,ln_econ_labor_medinc_census,log of median income,No,See econ_labor_medinc_census,
+Outcome,flag_d_hless,flag for missing total homeless share value in 2017 or 2013,No,,
+Outcome,flag_xt_hless,flag for missing total homeless share value in an odd year,No,,
+Outcome,flag_d_shelt,flag for missing sheltered homeless share in 2017 or 2013,No,,
+Outcome,flag_xt_shelt,flag for missing sheltered homeless share value in an odd year,No,,
+Outcome,flag_d_unshelt,flag for missing unsheltered homeless share in 2017 or 2013,No,,
+Outcome,flag_xt_unshelt,flag for missing unsheltered homeless share vale in an odd year,No,,
+Outcome,d_pit_hless_pit_hud_share,4-year change in pit_hless_pit_hud_share values (2017 and 2013),Yes,See pit_hless_pit_hud_share,
+Outcome,d_pit_shelt_pit_hud_share,4-year change in pit_shelt_pit_hud_share values (2017 and 2013),Yes,See pit_shelt_pit_hud_share,
+Outcome,d_pit_unshelt_pit_hud_share,4-year change in pit_unshelt_pit_hud_share values (2017 and 2013),Yes,See pit_unshelt_pit_hud_share,
+Housing,d_hou_mkt_homeval_xt,4-year change in hou_mkt_homeval_xt values (2017 and 2013),No,See hou_mkt_homeval_acs5yr,
+Housing,d_hou_mkt_burden_sev_rent_xt,4-year change in hou_mkt_burden_sev_rent_xt values (2017 and 2013),Yes,See hou_mkt_burden_sev_own_acs5yr,
+Housing,d_hou_mkt_burden_own_xt,4-year change in hou_mkt_burden_own_xt values (2017 and 2013),Yes,See hou_mkt_burden_own_acs5yr,
+Housing,d_hou_mkt_burden_sev_own_xt,4-year change in hou_mkt_burden_sev_own_xt values (2017 and 2013),Yes,See hou_mkt_burden_sev_rent_acs5yr,
+Housing,d_hou_mkt_burden_rent_xt,4-year change in hou_mkt_burden_rent_xt values (2017 and 2013),Yes,See hou_mkt_burden_rent_acs5yr,
+Housing,d_hou_mkt_medrent_xt,4-year change in hou_mkt_medrent_xt values (2017 and 2013),No,See hou_mkt_medrent_acs5yr,
+Housing,d_hou_mkt_utility_xt,4-year change in hou_mkt_utility_xt values (2017 and 2013),No,See hou_mkt_utility_acs5yr,
+Housing,d_fhfa_hpi_2009,4-year change in fhfa_hpi_2009 values (2017 and 2013),No,See fhfa_hpi_2009,
+Safety Net,d_hou_mkt_homeage1940_xt,4-year change in hou_mkt_homeage1940_xt values (2017 and 2013),Yes,See hou_mkt_homeage1940_acs5yr,
+Housing,d_hou_mkt_rentshare_xt,4-year change in hou_mkt_rentshare_xt values (2017 and 2013),Yes,See hou_mkt_rentshare_acs5yr,
+Housing,d_hou_mkt_rentvacancy_xt,4-year change in hou_mkt_rentvacancy_xt values (2017 and 2013),Yes,See hou_mkt_rentvacancy_acs5yr,
+Housing,d_hou_mkt_ovrcrowd_xt,4-year change in hou_mkt_ovrcrowd_xt values (2017 and 2013),Yes,See hou_mkt_ovrcrowd_acs5yr,
+Safety Net,d_hou_mkt_pctoverhouse_psh_hud,4-year change in hou_mkt_pctoverhouse_psh_hud values (2017 and 2013),Yes,see hou_mkt_pctoverhouse_psh_hud,
+Housing,d_hou_mkt_evict_rate,4-year change in hou_mkt_evict_rate values (2017 and 2013),Yes,See hou_mkt_evict_rate,
+Safety Net,d_hou_pol_eli_psh_hud,4-year change in hou_pol_eli_psh_hud values (2017 and 2013),Yes,See hou_pol_eli_psh_hud,
+Safety Net,d_hou_pol_hudunit_psh_hud_share,4-year change in hou_pol_hudunit_psh_hud_share values (2017 and 2013),Yes,See hou_pol_hudunit_psh_hud_share,
+Safety Net,d_hou_pol_occhudunit_psh_hud,4-year change in hou_pol_occhudunit_psh_hud values (2017 and 2013),Yes,See hou_pol_occhudunit_psh_hud,
+Safety Net,d_hou_pol_fedfundcoc,4-year change in hou_pol_fedfundcoc values (2017 and 2013),No,See hou_pol_fedfundcoc,
+Economic,d_econ_labor_medinc_census,4-year change in econ_labor_medinc_census values (2017 and 2013),No,See econ_labor_medinc_census,
+Economic,d_econ_labor_unemp_rate_BLS,4-year change in econ_labor_unemp_rate_BLS values (2017 and 2013),Yes,See econ_labor_unemp_rate_BLS,
+Economic,d_econ_labor_incineq_xt,4-year change in econ_labor_incineq_xt values (2017 and 2013),No,See econ_labor_incineq_acs5yr,
+Safety Net,d_econ_sn_cashasst_xt,4-year change in econ_sn_cashasst_xt values (2017 and 2013),Yes,See econ_sn_cashasst_acs5yr,
+Safety Net,d_econ_sn_eitc_irs_share,4-year change in econ_sn_eitc_irs_share values (2017 and 2013),Yes,See econ_sn_eitc_irs_share,
+Safety Net,d_econ_sn_ssdi_part_rate_SSA,4-year change in econ_sn_ssdi_part_rate_SSA values (2017 and 2013),Yes,See econ_sn_ssdi_part_rate_SSA,
+Safety Net,d_econ_sn_ssi_part_rate_SSA,4-year change in econ_sn_ssi_part_rate_SSA values (2017 and 2013),Yes,See econ_sn_ssi_part_rate_SSA,
+Demographic,d_dem_soc_white_census_share,4-year change in dem_soc_white_census_share values (2017 and 2013),Yes,See dem_soc_white_census_share,
+Demographic,d_dem_soc_black_census_share,4-year change in dem_soc_black_census_share values (2017 and 2013),Yes,See dem_soc_black_census_share,
+Demographic,d_dem_soc_hispanic_census_share,4-year change in dem_soc_hispanic_census_share values (2017 and 2013),Yes,See dem_soc_hispanic_census_share,
+Demographic,d_dem_soc_asian_census_share,4-year change in dem_soc_asian_census_share values (2017 and 2013),Yes,See dem_soc_asian_census_share,
+Demographic,d_dem_pop_child_census_share,4-year change in dem_pop_child_census_share values (2017 and 2013),Yes,See dem_pop_child_census_share,
+Demographic,d_dem_pop_adult_census_share,4-year change in dem_pop_adult_census_share values (2017 and 2013),Yes,See dem_pop_adult_census_share,
+Demographic,d_dem_pop_senior_census_share,4-year change in dem_pop_senior_census_share values (2017 and 2013),Yes,See dem_pop_senior_census_share,
+Demographic,d_dem_pop_female_census_share,4-year change in dem_pop_female_census_share values (2017 and 2013),Yes,See dem_pop_female_census_share,
+Demographic,d_dem_pop_mig_census_share,4-year change in dem_pop_mig_census_share values (2017 and 2013),Yes,See dem_pop_mig_census_share,
+Demographic,d_dem_soc_ed_bach_xt,4-year change in dem_soc_ed_bach_xt values (2017 and 2013),Yes,See dem_soc_ed_bach_acs5yr,
+Demographic,d_dem_health_cost_dart,4-year change in dem_health_cost_dart values (2017 and 2013),No,See dem_health_cost_dart,
+Demographic,d_dem_soc_singadult_xt,4-year change in dem_soc_singadult_xt values (2017 and 2013),Yes,See dem_soc_singadult_acs5yr,
+Demographic,d_dem_soc_singparent_xt,4-year change in dem_soc_singparent_xt values (2017 and 2013),Yes,See dem_soc_singparent_acs5yr,
+Demographic,d_dem_soc_vet_xt,4-year change in dem_soc_vet_xt values (2017 and 2013),Yes,See dem_soc_vet_acs5yr,
+Climate,d_env_wea_avgtemp_noaa,4-year change in env_wea_avgtemp_noaa values (2017 and 2013),No,See env_wea_avgtemp_noaa,
+Climate,d_env_wea_avgtemp_summer_noaa,4-year change in env_wea_avgtemp_summer_noaa values (2017 and 2013),No,See env_wea_avgtemp_summer_noaa,
+Climate,d_env_wea_precip_noaa,4-year change in env_wea_precip_noaa values (2017 and 2013),No,See env_wea_precip_noaa,
+Climate,d_env_wea_precip_annual_noaa,4-year change in env_wea_precip_annual_noaa values (2017 and 2013),No,See env_wea_precip_annual_noaa,
+Demographic,dem_soc_ed_lessbach_xt,share of the population without a bachelors degree,Yes,Census ACS 5-Year Estimates,"""B23006: EDUCATIONAL ATTAINMENT BY EMPLOYMENT STATUS FOR THE POPULATION 25 TO 64 YEARS"""
+Geography,census_region,census region,No,Census,
+Geography,census_division,census region,No,Census,
+Subgroup,sub_west_coast,"indicator for west cost CoC (CA, OR, or WA)",No,,
+Subgroup,sub_low_rent_vacancy,indicator for CoCs with rental vacancy rates <= 5 percent,No,,
+Subgroup,sub_high_cost_rent75,indicator for CoCs with median rents >= 75th percentile,No,,
+Subgroup,sub_high_cost_homeval75,indicator for CoCs with median home value >= 75th percentile,No,,
+Subgroup,sub_high_rent_share75,indicator for CoCs with share of renters >= 75th percentile,No,,
+Subgroup,tight_high_cost_rental_mkt,sum of the four tight market criteria indicators,No,,
+Subgroup,sub_tight_high_cost_rent,"indicator for tight, high cost rental market CoCs",No,,
+Subgroup,sub_west_coast_all_urb,indicator for suburban or major city/largely urban CoCs in the west region,No,,
+Subgroup,sub_west_census,indicator for west region CoCs,No,,
+Subgroup,major_city,indicator for major city or largely urban CoC,No,HUD,
+Subgroup,suburban,indicator for largely suburban CoC,No,HUD,
+Subgroup,rural,indicator for largely rural CoC,No,HUD,
