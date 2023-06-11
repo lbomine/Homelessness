@@ -17,3 +17,20 @@ Used this [Data Preparation Notebook](https://github.com/lbomine/Homelessness/bl
 - Ensured that the data frame is in a tidy, or long, format.
 - Created derived variables that will be useful in the analysis.
 - Exported the [clean data set](https://github.com/lbomine/Homelessness/blob/b1a185b5087448b4b209cc828a62ec7917d305ab/clean_homelessness.csv).
+
+## Data Analysis
+Used this [Analyis Notebook](https://github.com/lbomine/Homelessness/blob/6ac2a1387262174ba072c4d2d6107ca2cf685cee/Homelessness%20Analysis%20-%20Leiana%20Omine.ipynb) to analyze the cleaned data set and produce all necessary results for the final conclusion. Additional questions were proposed to assist our understanding and interpretation of the data.
+<br> <br> Steps Taken:
+- Train Test Split
+- OLS Model
+- K-fold cross validation on Lasso, Ridge, and XGBoost Regression Models
+- Determined the effectiveness of each model
+
+### Additional Step
+1. Does gentrification increase the rate of homelessness? And how can we identify it?
+
+## Author
+Leiana Beatriz Omine - Student at Seattle University
+
+## License
+Materials in this repository may be reused but not modified.
