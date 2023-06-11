@@ -20,14 +20,20 @@ Used this [Data Preparation Notebook](https://github.com/lbomine/Homelessness/bl
 
 ## Data Analysis
 Used this [Analyis Notebook](https://github.com/lbomine/Homelessness/blob/6ac2a1387262174ba072c4d2d6107ca2cf685cee/Homelessness%20Analysis%20-%20Leiana%20Omine.ipynb) to analyze the cleaned data set and produce all necessary results for the final conclusion. Additional questions were proposed to assist our understanding and interpretation of the data.
-<br> <br> Steps Taken:
-- Train Test Split
-- OLS Model
-- K-fold cross validation on Lasso, Ridge, and XGBoost Regression Models
-- Determined the effectiveness of each model
+<br> <br> Questions:
+1. What are some of the biggest factors on homelessness?
+2. Does homelessness rates change based on location?
 
-### Additional Step
+Additional Step:
 1. Does gentrification increase the rate of homelessness? And how can we identify it?
+
+Analysis Methods:
+- Train Test Split
+- Multiple Linear Regression
+- K-fold cross validation on Lasso, Ridge, and XGBoost Regression Models.
+- Determined the effectiveness of each model and their variable importance.
+
+A more in depth visualization of the results can be viewed in the [Communicating Results](https://github.com/lbomine/Homelessness/blob/b34a6a6f0768aab5d02fb9d33a1c0c3af1778019/Communicate%20Results%20Homelessness%20-%20Leiana%20Omine.pdf) report.
 
 ## Author
 Leiana Beatriz Omine - Student at Seattle University
