@@ -1,4 +1,4 @@
-# Homelessness • Data 3320, Spring 2023
+# Homelessness in the U.S. • Data 3320, Spring 2023
 Uses data science methodology to investigate and improve our understanding of the relationship between local housing market factors and homelessness in the U.S..
 
 ## Data
